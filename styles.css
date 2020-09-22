@@ -5,3 +5,37 @@
     --grayish-blue: hsl(240, 18%, 77%);
 
 }
+
+.body {
+    margin: 0;
+    width: 375px;
+    background-color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.pattern-image {
+    width: 300px;
+    padding: 20px;
+    margin: 1px auto;
+}
+
+.quote-image {
+    width: 60px;
+    margin: 1px auto;
+    display: block;
+    padding-top: 20px;
+}
+
+.curve-image {
+    padding-top: 150px;
+    margin: 1px auto;
+    
+}
