@@ -15,17 +15,18 @@ html, body {
 }
 
 .container {
-    display: flex;
+    width: 100%;
 }
 
 img {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
     align-items: center;
 }
 
 .pattern-image {
+    flex: 1;
     width: 300px;
     padding: 20px;
     margin: 1px auto;
@@ -40,7 +41,6 @@ img {
 
 .curve-image {
     width: 375px;
-    padding-top: 130px;
     margin: 0 auto;
 
 }
