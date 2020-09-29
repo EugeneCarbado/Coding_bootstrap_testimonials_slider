@@ -47,7 +47,7 @@ body {
 }
 
 .curve-image {
-    width: 350px;
+    width: 100%;
     align-self: flex-end;
 }
 
