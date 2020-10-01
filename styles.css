@@ -34,21 +34,40 @@ body {
     width: 100%;
     background: cadetblue;
     flex: 1;
+
+    display: flex;
+    align-items: center;
+
 }
 
 .box2 {
     width: 100%;
     background: chartreuse;
     flex: 1;
+
+    display: flex;
+    align-items: center;
 }
 
 .box3 {
     width: 100%;
     background: crimson;
     flex: 1;
+
+    display: flex;
+    align-items: flex-end;
 }
 
 .box1 img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.box2 img {
+    width: 100%;
+}
+
+.box3 img {
     width: 100%;
 }
 
