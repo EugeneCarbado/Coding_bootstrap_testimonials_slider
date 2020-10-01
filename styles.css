@@ -7,6 +7,7 @@
 }
 
 html, body {
+    box-sizing: border-box;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -18,29 +19,38 @@ body {
 }
 
 .container {
-    min-height: 100vh;
-    background-color: green;
+    height: 100vh;
 }
 
-.Background-images > div {
+.Background-images {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: red;
+    align-items: center;
 }
 
-.pattern-image {
-    /* width: 100%; */
+.box1 {
+    width: 100%;
+    background: cadetblue;
+    flex: 1;
 }
 
-.quote-image {
-    /* width: 20%; */
+.box2 {
+    width: 100%;
+    background: chartreuse;
+    flex: 1;
 }
 
-.curve-image {
-    /* width: 100%; */
+.box3 {
+    width: 100%;
+    background: crimson;
+    flex: 1;
 }
 
+.box1 img {
+    width: 100%;
+}
 
 /*  @media (min-width:700px) {
    html, body {
