@@ -32,7 +32,6 @@ body {
 
 .box1 {
     width: 100%;
-    background: cadetblue;
     flex: 1;
 
     display: flex;
@@ -42,34 +41,39 @@ body {
 
 .box2 {
     width: 100%;
-    background: chartreuse;
     flex: 1;
 
     display: flex;
     align-items: center;
 }
 
-.box3 {
-    width: 100%;
-    background: crimson;
-    flex: 1;
-
-    display: flex;
-    align-items: flex-end;
-}
-
 .box1 img {
-    width: 100%;
+    width: 80%;
+    padding: 20px 20px 0 40px;
     object-fit: cover;
 }
 
 .box2 img {
+    width: 20%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+footer {
+    background-color: darkgreen;
     width: 100%;
 }
 
-.box3 img {
+footer img {
     width: 100%;
 }
+
+
+/* .info-box {
+    height: 100%;
+    background-color: darkblue;
+    z-index: 100;
+} */
 
 /*  @media (min-width:700px) {
    html, body {
