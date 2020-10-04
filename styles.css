@@ -19,29 +19,28 @@ body {
 }
 
 .container {
-    height: 100vh;
+    width: 100%;
     position: absolute;
 }
 
 .Background-images {
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row-reverse;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .box1 {
-    width: 100%;
+    width: 50%;
     flex: 1;
 
     display: flex;
     align-items: center;
-
 }
 
 .box2 {
-    width: 100%;
+    width: 50%;
     flex: 1;
 
     display: flex;
@@ -49,25 +48,25 @@ body {
 }
 
 .box1 img {
-    width: 95%;
-    padding: 20px;
+    width: 90%;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .box2 img {
     width: 15%;
     margin: 0 auto;
-    padding-bottom: 300px;
+    padding-bottom: 20rem;
 }
 
 footer {
-    width: 100%;
+    width: 40%;
     position: fixed;
     bottom: -4px;
 }
 
 footer img {
-    width: 80%;
+    width: 100%;
 }
 
 
