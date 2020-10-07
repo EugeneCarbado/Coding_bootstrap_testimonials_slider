@@ -69,23 +69,27 @@ footer img {
     width: 100%;
 }
 
-.slider {
-    width: 400px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+.slide-viewer {
+    position: relative;
     overflow: hidden;
-}
-
-.slider_container {
     height: 400px;
-    transform: translate(0);
-    transition: .8s ease;
-    display: flex;
 }
 
-.slider_container img {
-    width: 400px;
+.slide-group  {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+}
+
+.slide:first-child {
+    display: block;
 }
 
 /* .info-box {
