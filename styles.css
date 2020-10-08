@@ -72,7 +72,9 @@ footer img {
 .slide-viewer {
     position: relative;
     overflow: hidden;
-    height: 400px;
+    height: 600px;
+    left: 50%;
+    top: 50%;
 }
 
 .slide-group  {
@@ -87,39 +89,3 @@ footer img {
     display: none;
     position: absolute;
 }
-
-.slide:first-child {
-    display: block;
-}
-
-/* .info-box {
-    height: 100%;
-    background-color: darkblue;
-    z-index: 100;
-} */
-
-/*  @media (min-width:700px) {
-   html, body {
-        margin: 0;
-        width: 100%;
-        height: 100%;
-
-    }
-
-    img {
-        display: block;
-        width: 100%;
-    }
-
-    .pattern-image {
-
-    }
-
-    .quote-image {
-
-    }
-
-    .curve-image {
-        float: left;
-        width: 600px;
-    } */
