@@ -6,86 +6,72 @@
 
 }
 
-html, body {
+* {
     box-sizing: border-box;
-    height: 100%;
-    width: 100%;
     margin: 0;
     padding: 0;
+    font-size: 32px;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    height: 100%;
+    background: url("./images/pattern-bg.svg") no-repeat;
+    background-size: 600px;
+    background-position: 90% 40%;
+}
+
+.curve__img {
+    position: absolute;
+    bottom: 0;
+    width: 600px;
 }
 
 .container {
-    width: 100%;
-    position: absolute;
-}
-
-.Background-images {
-    height: 100vh;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
+    min-height: 100vh;
 }
 
-.box1 {
-    width: 50%;
-    flex: 1;
+.dev__testimonial {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    border: 2px solid red;
 
-    display: flex;
-    align-items: center;
 }
 
-.box2 {
-    width: 50%;
-    flex: 1;
-
-    display: flex;
-    align-items: center;
+.info__section {
+    border: 2px solid red;
+    grid-area: 3 / 1 / 6 / 4;
+    display: grid;
+    align-content: center;
+    width: 600px;
+    text-align: left;
+    z-index: 10;
 }
 
-.box1 img {
-    width: 90%;
-    object-fit: cover;
+.img__dev {
+    border: 2px solid red;
+    grid-area: 2 / 3 / 7 / 7;
     margin: 0 auto;
+    width: 450px;
 }
 
-.box2 img {
-    width: 15%;
-    margin: 0 auto;
-    padding-bottom: 20rem;
-}
-
-footer {
-    width: 40%;
-    position: fixed;
-    bottom: -4px;
-}
-
-footer img {
-    width: 100%;
-}
-
-.slide-viewer {
-    position: relative;
-    overflow: hidden;
-    height: 600px;
-    left: 50%;
-    top: 50%;
-}
-
-.slide-group  {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.slide {
-    width: 100%;
-    height: 100%;
+#slide__2 {
     display: none;
-    position: absolute;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        background-size: 350px;
+        background-position: 50% -30%;
+    }
+
+    .curve__img {
+        width: 100%;
+    }
 }
